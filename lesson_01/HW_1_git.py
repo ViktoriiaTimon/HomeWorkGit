@@ -71,12 +71,6 @@ absent_children = 3
 present_children = children - absent_children
 print(int(present_children))
 
-#2
-boys = 24
-girls = boys / 2
-absent_children = 3
-children = boys + boys / 2 - absent_children
-print(int(children))
 
 # task 10
 """
@@ -84,16 +78,11 @@ print(int(children))
 а третя - як половина вартості першої та другої разом.
 Скільки будуть коштувати усі книги, якщо купити по одному примірнику?
 """
-#1
 book_1 = 8
 book_2 = book_1 + 2
 book_3 = (book_1 + book_2) / 2
 purchase = book_1 + book_2 + book_3
 print(int(purchase))
 
-#2
-book_1, book_2, book_3 = 8, 8 + 2, (8 + (8 + 2)) / 2
-purchase = int(book_1 + book_2 + book_3)
-print(purchase)
 
 
